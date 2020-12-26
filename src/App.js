@@ -61,7 +61,7 @@ class App extends React.Component {
                     <input type="text" placeholder="Enter text"
                     value={this.state.currentItem.text}
                     onChange={this.handleInput} />
-                    <button type="button"onClick={this.addItem} >Add</button>
+                    <button type="button"onClick={this.addItem} >Submit</button>
                 </from>
             </header>
             <Listitems  items={this.state.items}
